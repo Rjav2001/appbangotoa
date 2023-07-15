@@ -1,0 +1,829 @@
+/* base element inheritance formatting */
+@font-face {
+	font-family: 'Dtl Argo', Helvetica;
+	src: url('../css/fuentes/dtlargo.eot');
+	src: url('../css/fuentes/dtlargo.eot../images?#iefix') format('embedded-opentype'), url('../css/fuentes/dtlargo.woff2') format('woff2'), url('../images/dtlargo.woff') format('woff'), url('../images/dtlargo.ttf') format('truetype'), url('../images/dtlargo.svg') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../css/fuentes/opensans-regular-webfont.eot');
+	src: url('../css/fuentes/opensans-regular-webfont.eot../images?#iefix') format('embedded-opentype'), url('../css/fuentes/opensans-regular-webfont.woff2') format('woff2'), url('../css/fuentes/opensans-regular-webfont.woff') format('woff'), url('../css/fuentes/opensans-regular-webfont.ttf') format('truetype'), url('../css/fuentes/opensans-regular-webfont.svg') format('svg');
+}
+body {
+	background: url(../images/bg-fondo.jpg) #F3EFEB repeat-x;
+	font-family: 'Dtl Argo', Helvetica !important;
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+.contenedor {
+	width: 98%;
+	margin: 0px auto;
+}
+/******** estilos: contenedor logo y nombre de usuario ********/
+.cont_cabezotetop {
+	width: 100%;
+	padding: 20px 15px;
+}
+.cont_moduloident {
+	float: right;
+	text-align: right;
+}
+/******** estilos: contenedor salida segura ********/
+.cont_salidasegura {
+	float: left;
+	text-align: right;
+	padding-right: 15px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 0px;
+	font-family: 'Dtl Argo', Helvetica;
+	margin-top: -5px;
+}
+.contimg_salidasegura {
+	float: right;
+	width: 14px;
+	height: 20px;
+	padding-top: 2px;
+}
+.conttxt_salidasegura {
+	font-family: 'Dtl Argo', Helvetica;
+	width: 15%;
+}
+.conttxt_salidasegura a {
+	color: #ffffff !important;
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 16px;
+	width: 10%;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 0 10px;
+}
+.conttxt_salidasegura a:hover {
+	color: #ffffff !important;
+}
+/******** estilos: contenedor nombre de página y banner ********/
+.cont_cabezotepagina {
+	width: 100%;
+	border: 0px;
+	padding: 35px 15px 0px 15px;
+}
+.titulo_seccionpag {
+	width: 50%;
+	height: 100%;
+	font-family: 'Dtl Argo', Helvetica;
+	padding-left: 150px !important;
+	color: #435166;
+	font-size: 35px;
+	font-weight: bold;
+	vertical-align: bottom;
+	text-align: left;
+}
+.txt_intro_seccionpag {
+	width: 50%;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #435166;
+	font-size: 18px;
+	vertical-align: top;
+}
+.cont_banner {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+/************************/
+a {
+	color: #002C76;
+}
+a:link {
+	color: #002C76;
+	text-decoration: none;
+}
+a:visited {
+	color: #002C76;
+}
+a:active {
+	color: #002C76;
+}
+a:hover {
+	color: #002C76;
+}
+td {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #435167;
+	font-size: 15px;
+	font-weight: normal;
+}
+th {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #435167;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 5px 15px;
+	text-align: left;
+}
+/* psj estilos logon*/
+.psj_logoOutside {
+	vertical-align: top;
+	text-align: left;
+}
+/* navigation classes */
+.navtop {
+	vertical-align: top;
+	font-size: 1pt;
+}
+.navmsg {
+	text-indent: -50px;
+}
+.navimage {
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+.navclear {
+	background-image: none;
+	font-size: 1pt;
+	vertical-align: top;
+}
+.nav {
+	background-image: none;
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+	margin: 0px;
+}
+.edgetab {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 11px;
+	vertical-align: middle;
+	text-align: right;
+	background-color: #FFFFFF;
+}
+a.aedgetab, a.aedgetab:visited {
+	font-weight: bold;
+	color: #003376;
+	text-decoration: none;
+	font-family: 'Dtl Argo', Helvetica;
+}
+.tdtoptab, .tdtoptabon {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	border: 1px solid #999999;
+}
+.tdtoptab {
+	background-color: #FCFCFC;
+}
+.tdtoptabon {
+	background-color: #c5c5c5;
+}
+a.atoptab, a.atoptab:visited, a.atoptab:hover {
+	color: #000063;
+	text-decoration: none;
+}
+a.atoptabon, a.atoptabon:visited {
+	color: #000063;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+/*estilos de los modulos*/
+.td2dtab, .td2dtabon {
+	vertical-align: top;
+	font-family: 'Dtl Argo', Helvetica;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+a.a2dtab, a.a2dtab:visited {
+	color: #000063;
+	text-decoration: none;
+	font-size: 12px;
+}
+a.a2dtabon, a.a2dtabon:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #CC0000;
+	font-size: 12px;
+}
+/*fondo de los modulos*/
+.navline, .toptabline {
+	background-color: #FFFFFF;
+}
+/* hides ADA skiplink in modern browsers */
+.skipnav, a.askipnav {
+	color: #ffffff;
+	display: none;
+}
+/* Encabezados */
+.headline {
+ font-family: font-family: 'Dtl Argo', Helvetica;;
+	font-style: italic;
+	color: #003376;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: left;
+}
+.headline2 {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+a.headline2 {
+	color: #F000063;
+}
+.account {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #000000;
+	font-size: 11px;
+	vertical-align: middle;
+	text-align: left;
+}
+/* instructions and fine print classes */
+.hint, .opthd, .optsubmit {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #727272;
+	font-size: 12px;
+	font-weight: normal;
+}
+.optinput {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #042A62;
+	font-size: 12px;
+	font-weight: normal;
+}
+.fine {
+	color: #FFFFFF;
+    font-family: 'Dtl Argo',Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+
+}
+.disclaimer {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #000000;
+	font-size: 10px;
+	font-weight: normal;
+}
+.acct, .acct_menu {
+	color: #003376;
+	vertical-align: middle;
+	font-size: 14px;
+	font-family: font-family: 'Dtl Argo', Helvetica;;
+	font-weight: bold;
+	text-decoration: none;
+	float:right;
+}
+.footer {
+	color: #042A62;
+	font-size: 9px;
+	color: #333333;
+}
+a.footer:link {
+	color: #042A62;
+}
+a.footer:visited {
+	color: #042A62;
+}
+a.footer:active {
+	color: #042A62;
+}
+/* color de las lineas que se encuentran en las paginas */
+.bkgnd, .wtspace, .line {
+	font-size: 1pt;
+	line-height: 1pt;
+}
+.wtspace {
+	background: #ffffff;
+}
+.line {
+	border-top: 2px dotted #003376;
+	width: 852px;
+	height: 2px;
+}
+.bline {
+	background: #000000;
+}
+/* header classes. used on display screens */
+.opthd, .spanhd, .spanhdctr {
+	color: #000063;
+	background: #FFFFFF;
+	font-weight: bold !important;
+	border-bottom: #000063;
+}
+/*.spanhd-titulos { font-size: 13px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#074585; background:#E4F0FA; padding:5px 5px 5px 15px;border-bottom:#FFF solid 1px;}*/
+	/* tamaño de la fuente de los encabezados de las tablas */
+.spanhd {
+	font-size: 13px;
+}
+/*barra de reportes*/
+	/*.secthd, .spanhdrt { color: #000063; background: #CAE1F4;  font-weight: bold !important;  }*/
+	/*.hd, .hdrt, .hdctr,.bhd, .bhdrt, .bhdctr { color: #000063;  background: #074585;  }*/
+	/*tamaño de la fuente de los subtitulos*/
+	/*.bhd, .bhdrt, .bhdctr { font-size: 13px; font-weight: bold; }*/
+.subhd, .subhdrt, .subhdctr, .subhdcurr {
+	color: #042A62;
+	background: #CAE1F4;
+	font-weight: bold !important;
+}
+.spanhd, .hd, .bhd, .subhd, .secthd {
+	text-align: left;
+}
+.spanhdrt, .hdrt, .bhdrt, .subhdrt, .subhdcurr {
+	text-align: right;
+}
+.spanhdctr, .hdctr, .bhdctr, .subhdctr {
+	text-align: center;
+}
+/*Titulos Amount Tablas*/
+.bhd_amount {
+	font-size: 13px !important;
+	text-align: left;
+	background: #E4F0FA;
+	border-bottom: #000 solid 1px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+}
+/* data classes and alternating row color classes  */
+.acctclosed, .acctcurrclosed, .data, .bdata, .datart, .datactr, .curr, .currleft, .currneg {
+	font-size: 12px;
+background: #E4F0FA vertical-align: top;
+}
+.datagrey, .datartgrey, .datactrgrey, .currgrey, .currgreyneg {
+	font-size: 12px;
+	background: #FFFFFF;
+	vertical-align: top;
+}
+.acctclosed {
+	font-style: italic;
+}
+.acctcurrclosed {
+	font-style: italic;
+}
+.mdata {
+	font-size: 12px;
+	background: #E4F0FA
+}
+.mdatagrey {
+	font-size: 12px;
+	background: #FFFFFF;
+}
+.dataimpt, .currimpt, .dataimptrt {
+	background: #ffffcc;
+	vertical-align: top;
+}
+.bdata {
+	font-weight: bold;
+}
+.datart, .datartgrey, .dataimptrt {
+	text-align: right;
+}
+.datactr, .datactrgrey {
+	text-align: center;
+}
+.dataimpt {
+	text-align: left;
+}
+.curr, .acctcurrclosed {
+	text-align: right;
+	font-weight: bold;
+}
+.currgrey {
+	text-align: right;
+	font-weight: bold;
+}
+.currleft {
+	text-align: left;
+	font-weight: bold;
+}
+.currimpt {
+	text-align: right;
+	font-weight: bold;
+}
+.neg {
+	color: #cc0033;
+}
+.subdata, .subdatart {
+	font-size: 12px;
+	background: #E4F0FA
+}
+.subdatart {
+	text-align: right;
+}
+/* field label classes */
+.labelleft, .labelctr, .labeltop, .labeltopleft {
+	font-size: 11px;
+	color: #042A62;
+background: #E4F0FA font-weight: bold;
+}
+.label {
+	font-size: 11px;
+	color: #042A62;
+background: #E4F0FA font-weight: bold;
+	vertical-align: baseline;
+}
+.label {
+	text-align: right;
+}
+.labelleft {
+	text-align: left;
+}
+.labelctr {
+	text-align: center;
+}
+.labeltop {
+	text-align: right;
+	vertical-align: top;
+}
+.labeltopleft {
+	text-align: left;
+	vertical-align: top;
+}
+/* form element cell classes */
+.textarea {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #000000;
+	font-size: 13px;
+	vertical-align: baseline;
+	text-align: left;
+}
+.input {
+	background: none;
+    font-family: arial,verdana,helvetica;
+    font-size: 13px;
+    vertical-align: baseline;
+}
+.inputgrey {
+	font-size: 12px;
+background: #E4F0FA vertical-align: baseline;
+}
+.inputtop {
+	font-size: 12px;
+background: #E4F0FA vertical-align: top;
+}
+.submit, .submitleft, submitctr, sesubmit {
+	font-size: 12px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #333333;
+}
+.submit {
+	text-align: right !important;
+}
+.submitleft {
+	text-align: left !important;
+}
+.submitctr {
+	text-align: center !important;
+}
+/* Search box classes */
+.sehd, .seinput, .sesubmit {
+	color: #000063;
+}
+.sehd {
+	font-size: 11px;
+	background: #CAE1F4;
+	font-weight: bold;
+}
+.seinput {
+	font-size: 12px;
+	background: #E4F0FA
+}
+.sesubmit {
+	font-size: 12px;
+	background: #CAE1F4;
+	text-align: right;
+}
+/* Option box classes. See header classes for opthd color change. */
+.optinput {
+	background: #FBFBFB;
+	border: solid 1px #F0F0F0;
+}
+.optsubmit {
+background: #E4F0FA text-align: right;
+}
+/* Message classes - for immediate messages based on user interaction */
+.note {
+	font-size: 14px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #FFAA2B;
+}
+.conpreap {
+	font-size: 13px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #BDD5EC;
+}
+.proceprea {
+	font-size: 13px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #BDD5EC;
+}
+.success {
+	font-size: 12px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background: #FFFFCE;
+}
+.warn {
+	font-size: 12px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background: #FFFFCE;
+}
+.error {
+	font-size: 12px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	background: #FFCCCC;
+}
+.successimg, .warnimg, .errorimg {
+	font-size: 12px;
+	color: #000000;
+	vertical-align: top;
+	text-align: center;
+}
+.noteimg {
+	font-size: 40px;
+	color: #000000;
+	vertical-align: top;
+	text-align: center;
+}
+.noteimg {
+	background: #ffffff;
+}
+.successimg {
+	background: #CCFFCC;
+}
+.warnimg {
+	background: #FFFF99;
+}
+.errorimg {
+	background: #FFCCCC;
+}
+.indicator {
+	font-size: medium;
+	color: #ff0000;
+}
+.info {
+	font-size: 12px;
+	color: #000000;
+	background: #9999ff;
+}
+.footlt {
+	font-size: 12px;
+	color: #333333;
+	background: #ffffff;
+}
+/* estilo para los amount de las tablas */
+td.table_cur {
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	font-weight: bold;
+}
+/* estilo para los amount de las tablas */
+.psj_datactr {
+	font-size: 12px;
+	vertical-align: top;
+	text-align: center;
+}
+.psj_account {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #000000;
+	font-size: 16px;
+	text-align: left;
+}
+.psj_acct {
+	color: #042A62;
+	vertical-align: top;
+}
+/* Display tag */
+
+/* fuentes agendamiento */
+.agendnote {
+	vertical-align: top;
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 16px;
+	font-weight: bolder;
+	background-color: #CCCCCC;
+	color: #000053;
+}
+.nickname_balance {
+	width: 40%;
+}
+.accountnumber_balance {
+	width: 30%;
+}
+.amount_balance {
+	width: 30%;
+}
+th.sortable a {
+}
+th.order1 span {
+	background-image: url(../images/flecha-tabla-up.png);
+	BACKGROUND-REPEAT: no-repeat;
+	background-position: center left;
+	text-decoration: none
+}
+th.order2 span {
+	background-image: url(../images/flecha-tabla-down.png);
+	BACKGROUND-REPEAT: no-repeat;
+	background-position: center left;
+	text-decoration: none
+}
+/* 
+ * RQ20976 - pamartinez Estilos temporales
+*/
+.cont_img {
+	width: 774px;
+	height: 481px;
+	background: url(/Banking/pb/images/IMG_BG2.jpg) no-repeat;
+	margin: 0 auto 0 auto;
+}
+.cont_btn {
+	width: 328px;
+	height: 32px;
+	float: right;
+	margin: 323px 40px 0 0;
+}
+.btn_solicitar {
+	width: 154px;
+	height: 32px;
+	float: left;
+}
+.btn_cont {
+	width: 159px;
+	height: 32px;
+	float: right;
+}
+/* Fin RQ20976 */
+
+/* Fin dispaytag */
+/*titulos*/
+.titulo00010524, .titulo00010016, .titulo00010236, .titulo00010029, .titulo00010998 {
+	font-weight: bold;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: 'Dtl Argo', Helvetica;
+}
+/*titulo villas*/
+ul.titulo00010524 {
+	background-color: #cc0002;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: url(/Banking/pb/images/logoAVillas.jpg);
+	list-style-position: inside;
+}
+ul.titulo00010524 li a.link00010524 {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	cursor: pointer;
+}
+/* titulo bogota */
+ul.titulo00010016 {
+	background-color: #000064;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: url(/Banking/pb/images/logoBogota.jpg);
+	list-style-position: inside;
+}
+ul.titulo00010016 li a.link00010016 {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	cursor: pointer;
+}
+/* titulo occidente */
+ul.titulo00010236 {
+	background-color: #00579e;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: url(/Banking/pb/images/logoOccidente.jpg);
+	list-style-position: inside;
+}
+ul.titulo00010236 li a.link00010236 {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	cursor: pointer;
+}
+/* titulo popular */
+ul.titulo00010029 {
+	background-color: #007E00;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: url(/Banking/pb/images/logoPopular.jpg);
+	list-style-position: inside;
+}
+ul.titulo00010029 li a.link00010029 {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	cursor: pointer;
+}
+/* titulo porvenir */
+ul.titulo00010998 {
+	background-color: #F7922A;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: url(/Banking/pb/images/logoPorvenir.jpg);
+	list-style-position: inside;
+}
+ul.titulo00010998 li a.link00010998 {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	cursor: pointer;
+}
+/***********/
+.main-table-container {
+	border: 0px;
+	margin: 0 auto;
+	width: 100%;
+}
+.footerimg {
+	text-align: right;
+}
+.i-icon-flecha:before {
+	content: url(../images/flecha-menu-interno.jpg)
+}
+.tabla_head_otp {
+    background: none repeat scroll 0 0 #005080;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.tag-h1 {
+    color: #FFFFFF;
+    font-family: trebuchet ms;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 3px;
+    text-align: right;
+}
+
+.info-tabla {
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	padding: 5%;
+}
+
+.info-tabla td {
+	font-family: Arial;
+	color: #00008b;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 250px;
+    text-align: left;
+}
+
+.dotted-separator{
+	border-bottom: 1px dotted;
+	border-color: 707ba0;
+}
+.left-align{
+	text-align: left !important;
+}
+.right-align{
+	text-align: right !important;
+}
+
+.table-ajust-token{
+	width: 62% !important;
+}
+
+ul.titulo00010060 {
+    background-color: #fff !important;
+    list-style: inside url("/Banking/pb/images/logoFacilpass.png") disc !important;
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+}
+

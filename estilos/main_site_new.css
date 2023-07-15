@@ -1,0 +1,554 @@
+/******** estilos: linea separadora ********/
+.cont_lineasep {
+	margin: 0 auto;
+	width: 100%;
+	height: 3px;
+	padding: 10px 0 22px 0;
+}
+.linea-new{
+    width: 100%;
+}
+
+.linea_separador {
+    background-color: #e62d33;
+    float: left;
+    height: 3px;
+    width: 50%;
+}
+.linea_separador_y {
+    background-color: #ffd200;
+    float: left;
+    height: 3px;
+    width: 50%;
+}
+
+/******** estilos: contenedor menu lateral ********/
+.cont_menulateral {
+                width: 100%;
+                padding: 10px 0 10px 30px;
+                margin-bottom: 20px;
+}
+
+.txt_menulateral {
+                color: #f1861b !important;
+                vertical-align: middle;
+                font-size: 15px;
+                font-family: 'Dtl Argo', Helvetica;
+}
+.txt_menulateral li {
+                list-style:none;
+}
+
+.txt_menulateral li a {
+                color: #f1861b;
+}
+
+/******** estilos: tablas ********/
+.cont_tabla {
+	width: 100%;
+	margin-bottom: 20px;
+	background: #fff;
+	border: #EBE8E4 solid 1px;
+	padding: 20px 20px;
+}
+.titulo_tabla {
+	font-size: 15px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #002C76;
+	padding: 15px 5px 15px 15px;
+	border-bottom: #FFF solid 1px;
+	background: #F8F8F8;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.txt_camporequerido {
+	font-size: 15px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #002C76;
+	padding: 7px 15px 5px 5px;
+	text-align: right;
+	border-bottom: #FFF solid 1px;
+}
+.subtitulo_tabla {
+	font-size: 15px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #002C76;
+	background: #F2F2F2;
+	width: 100%;
+	padding: 15px 5px 15px 15px;
+	border-bottom: #FFF solid 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.subtitulo_tabla_delivery {
+	font-size: 15px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #002C76;
+	background: #2886D8;
+	padding: 5px 5px 5px 15px;
+	border-bottom: #FFF solid 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.cont_titulosprod {
+	font-size: 13px !important;
+	text-align: left;
+	background: #E4F0FA;
+	border-bottom: #fff solid 1px;
+	font-family: 'Dtl Argo', Helvetica!important;
+}
+.cont-filapar {
+	background-color: #fff;
+	border-top: solid 1px #DFDEE1;
+	padding: 15px 5px 15px 15px;
+}
+.cont-filaimpar {
+	background-color: #fff;
+	border-top: solid 1px #fff;
+	padding: 5px 5px 5px 15px;
+}
+#link_txt a, hover, visited, active, hover {
+	color: #525252;
+	text-decoration: underline;
+	font-size: 12px;
+	font-family: 'Dtl Argo', Helvetica;
+}
+tr.odd {
+	background-color: #fff;
+	border-bottom: solid 1px #DFDEE1 !important;
+}
+tr.tableRowEven, tr.even {
+	background-color: #FFFFF;
+}
+/******** estilos: footer ********/
+.cont_footer {
+	width: 70%;
+	border: 0px;
+	margin: 0 auto;
+}
+/******** estilos: formulario ********/
+.titulo_form {
+	width: 296px; /*border:#C3F solid 1px;*/
+	font-size: 13px;
+	color: #003376;
+	vertical-align: baseline;
+	font-family: 'Dtl Argo', Helvetica;
+	text-align: left;
+	padding: 0 5px 0 5px;
+}
+.cont_tablaform {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 0 15px 15px 15px;
+	background: #ffffff none repeat scroll 0 0;
+}
+.cont_txtform {
+	padding: 0 5px 0 5px;
+}
+.txtcampo_form {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 12px;
+	color: #525252;
+	width: 240px;
+}
+.txtcampo_form_date {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 12px;
+	color: #525252;
+	width: 100px;
+}
+.cont_boton {
+	width: 122px;
+	height: 26;
+	padding-left: 15px;
+	float: right;
+}
+/******** Ajuste Norberto Villegas  por limitacion en el componente es necesario sobreescribir estos estilos en las tablas ********/
+.cont_tabla_display {
+	width: 100%;
+	border: 0px;
+	margin-bottom: 0px;
+	background-color: #fff;
+	margin-top: 5px;
+	border-top: #FFF solid 1px;
+}
+.cont_tabla_display_no_margin_top {
+	width: 100%;
+	border: 0px;
+	margin-bottom: 0px;
+	background-color: #fff;
+	margin-top: 0px;
+	border-top: #FFF solid 1px;
+}
+.cont_tabla_white_background {
+	background: #FFFFFF;
+}
+.titulo_tabla_display {
+	font-size: 14px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #FFF;
+	background: #005080;
+	width: 100%;
+	padding: 5px 5px 5px 15px;
+	border-bottom: #FFF solid 1px;
+}
+.subtitulo_tabla_display {
+	font-size: 13px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #FFF;
+	background: #2886D8;
+	width: 100%;
+	padding-top: 5px;
+}
+.cont-fila {
+	border-top: solid 1px #DFDEE1;
+	padding: 15px 5px 15px 15px;
+}
+.cont-fila-link {
+	color: #435166 !important;
+	text-decoration: underline !important;
+	font-size: 15px !important;
+	font-family: 'Dtl Argo', Helvetica !important;
+}
+.pagebanner {
+	padding-left: 15px;
+}
+.cont_titulosprod_opt {
+	color: #002C76 !important;
+	font-size: 15px !important;
+	text-align: left;
+	background: #fff;
+	border-bottom: #DFDEE1 solid 1px;
+	font-family: 'Dtl Argo', Helvetica !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	padding: 15px 5px 15px 15px;
+}
+.cont_titulosprod_opt a {
+	color: #002C76;
+}
+.cont_titulosprod_opt_1 {
+	color: #002C76 !important;
+	font-size: 15px !important;
+	text-align: left;
+	background: #fff;
+	border-bottom: #DFDEE1 solid 1px;
+	font-family: 'Dtl Argo', Helvetica !important;
+	width: 460px;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	padding: 15px 5px 15px 15px;
+}
+.cont_titulosprod_opt_2 {
+	color: #002C76 !important;
+	font-size: 15px !important;
+	text-align: left;
+	background: #fff;
+	border-bottom: #DFDEE1 solid 1px;
+	font-family: 'Dtl Argo', Helvetica !important;
+	width: 250px;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	padding: 15px 5px 15px 15px;
+}
+.cont_titulosprod_opt_3 {
+	color: #002C76 !important;
+	font-size: 15px !important;
+	text-align: left;
+	background: #fff;
+	border-bottom: #DFDEE1 solid 1px;
+	font-family: 'Dtl Argo', Helvetica !important;
+	width: 250px;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	padding: 15px 5px 15px 15px;
+}
+.cont_txt_label {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #525252;
+	font-size: 12px;
+	font-weight: normal;
+}
+.txt_camporequerido_display {
+	font-size: 12px;
+	font-family: 'Dtl Argo', Helvetica;
+	color: #FFF;
+	text-align: right;
+	background: #005080;
+	border-bottom: #FFF solid 1px;
+	padding: 7px 15px 5px 5px;
+}
+/********Fin Ajuste Norberto Villegas  por limitacion en el componente es necesario sobreescribir estos estilos en las tablas ********/
+
+
+/******** estilos: menu lateral y filtros ********/
+.txt-filtrar {
+	color: #003376;
+}
+.campo_formfiltrar {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 12px;
+	color: #525252;
+	width: 100px;
+	height: 22px;
+}
+.campo_formselect {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 12px;
+	color: #525252;
+	width: 100%;
+	height: 22px;
+}
+.cont_botonfiltro {
+	width: 122px;
+	height: 26;
+	padding-top: 10px;
+	float: right;
+}
+.cont_lineafiltrar {
+	width: 1px;
+	background: #cccccc;
+	padding: 10px 0 10px 0;
+	height: 100%;
+}
+.cont_infocuenta {
+	background: #FBFBFB;
+	border: solid 1px #F0F0F0;
+	width: 100%;
+	padding: 10px 0 10px 15px;
+	margin-bottom: 20px;
+}
+.cont_menulateral_filtro {
+	width: 68%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.cont_filtro {
+	background: #FBFBFB;
+	border-left: dotted 1px #CCC;
+	width: 275px;
+	padding-left: 30px;
+	margin: 20px;
+}
+.cont_infor_cuenta {
+	width: 68%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.txt_infor_cuenta {
+	color: #003376;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Dtl Argo', Helvetica;
+	font-style: italic;
+}
+.txt_campos {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #525252;
+	font-size: 12px;
+}
+/******** estilos: Mensaje de Advertencia ********/
+.cont_mens_adv {
+	width: 100%;
+	color: #FF7F00;
+	font-size: 18px;
+	padding: 15px 15px;
+	border: 1px solid #FF7F00;
+	margin-bottom: 20px;
+}
+.cont_mens_adv li {
+	list-style: none;
+	color: #FF7F00;
+	font-size: 18px;
+}
+.cont_img_adv {
+	width: 50px;
+	height: 44px;
+}
+.titulos_mensajes li {
+	font-family: 'Dtl Argo', Helvetica;
+	color: #003376;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 13px;
+}
+/******** estilos: Mensaje de transacciín exitosa ********/
+.cont_mens_exitoso {
+    background: #f3efeb;
+    border: 2px  solid #66cc33;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+
+}
+
+.cont_mens_exitoso li {
+	list-style: outside none none;
+	color: #66cc33;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.cont_img_exitoso {
+	width: 50px;
+	height: 50px;
+}
+.txt_resaltado {
+	font-family: 'Dtl Argo', Helvetica;
+	font-size: 13px;
+	color: #003376;
+	font-style: italic;
+	font-weight: bold;
+}
+/******** estilos: Mensaje de error ********/
+.cont_mens_error {
+	color: #E62E34;
+	font-size: 18px;
+	width: 100%;
+	padding: 15px 15px;
+	border: 1px solid #E72F35;
+	margin-bottom: 20px;
+}
+.cont_mens_error li {
+	list-style: none;
+	color: #E62E34;
+	font-size: 18px;
+}
+.cont_img_error {
+	width: 50px;
+	height: 50px;
+}
+.cont_tabla.token {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 960px;
+	margin: 0 auto;
+}
+
+.titulo_tabla_token {
+    background: none;
+    color: #435166;
+    font-family: "Dtl Argo",Helvetica;
+    font-size: 33px;
+    padding: 15px 5px 15px 15px;
+	border: none;
+	width: 40%; 
+}
+.campo_tabla {
+    color: #435167;
+    font-family: "Dtl Argo",Helvetica;
+    font-size: 15px;
+    font-weight: normal;
+}
+.intro_tabla {
+    color: #435167;
+    font-family: "Dtl Argo",Helvetica;
+    font-size: 17px;
+    font-weight: normal;
+}
+.contenedor.token {
+	margin: 0 auto;    
+    width: 960px;
+	padding: 0px 15px;
+}
+.codigo_tabla {
+    color: #435167;
+    font-family: "Dtl Argo",Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.toke_f {
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	padding: 5%;
+}
+.toke_f tr {
+	width: 90%;
+}
+.toke_f td {
+	width: 33%;
+	height: auto;
+	padding: 10px 0;
+	text-align: center;	
+    vertical-align: bottom;
+}
+
+.token-text-message {
+    vertical-align: top !important;
+}
+.toke_f .input-token {
+	max-width: 200px;
+	padding: 10px;
+	width: 100%;
+}
+
+.cdg-token {
+    font-size: 18px;
+    text-align: left !important;
+}
+
+.titulo{
+    float: left;
+    height: 29px !important;
+    margin: 0 0 15px !important;
+    width: 100% !important;
+	background: #002C76 none repeat scroll 0 0 !important;
+
+	color: #FFF;
+}
+
+.titulo h3{
+	color: #FFF;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    font-style: normal;
+    margin: 5px 0 0 30px;
+}
+
+.texto-normal{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    color: #435168;
+    font-family: 'Dtl Argo',Helvetica;
+    font-size: 13px;
+    margin: 0 0 10px;
+
+}
+.span7-login {
+    width: 643px !important;
+}
+
+.span-login {
+   float: left !important;
+   margin-left: 0px !important;
+   min-height: 1px !important;
+}
+
+.login-campos{
+    width: 255px;
+} 
+.container-login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.cont_msn_exitoso_new {
+                padding-left:150px; 
+                padding-right:180px;
+}
+
+.titulo_tabla_new {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #435166;
+    font-family: "Dtl Argo",Helvetica;
+    font-size: 25px;
+    padding: 30px 5px 50px 170px;
+    width: 40%;
+}
+
+
